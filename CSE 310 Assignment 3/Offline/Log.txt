@@ -1,0 +1,134 @@
+Line 2: type_specifier : INT
+
+Line 2: parameter_list : 
+
+Line 2: func_declaration : type_specifier ID LPAREN parameter_list RPAREN SEMICOLON
+main
+
+Line 2: unit : func_declaration
+
+Line 2: program : unit
+
+Line 3: type_specifier : INT
+
+Line 3: parameter_list : 
+
+Line 4: factor : CONST_INT
+
+Line 4: unary_expression : factor
+
+Line 4: term : unary_expression
+
+Line 4: simple_expression : term
+
+Line 4: rel_expression : simple_expression
+
+Line 4: logic_expression : rel_expression
+
+Line 4: expression : logic_expression
+
+Line 4: statement : RETURN expression SEMICOLON
+
+Line 4: statements : statement
+
+Line 5: compound_statement : LCURL statements RCURL
+
+ScopeTable # 2
+
+ScopeTable # 1
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+Line 5: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+foo
+
+Line 5: unit : func_definition
+
+Line 5: program : program unit
+
+Line 7: type_specifier : FLOAT
+
+Line 7: parameter_list : 
+
+Line 8: factor : CONST_FLOAT
+
+Line 8: unary_expression : factor
+
+Line 8: term : unary_expression
+
+Line 8: simple_expression : term
+
+Line 8: rel_expression : simple_expression
+
+Line 8: logic_expression : rel_expression
+
+Line 8: expression : logic_expression
+
+Line 8: statement : RETURN expression SEMICOLON
+
+Line 8: statements : statement
+
+Line 9: compound_statement : LCURL statements RCURL
+
+ScopeTable # 3
+
+ScopeTable # 1
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+Line 9: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+main
+
+Line 9: unit : func_definition
+
+Line 9: program : program unit
+
+Line 11: type_specifier : VOID
+
+Line 11: parameter_list : 
+
+Line 12: factor : CONST_INT
+
+Line 12: unary_expression : factor
+
+Line 12: term : unary_expression
+
+Line 12: simple_expression : term
+
+Line 12: rel_expression : simple_expression
+
+Line 12: logic_expression : rel_expression
+
+Line 12: expression : logic_expression
+
+Line 12: statement : RETURN expression SEMICOLON
+
+Line 12: statements : statement
+
+Line 13: compound_statement : LCURL statements RCURL
+
+ScopeTable # 4
+
+ScopeTable # 1
+
+2 -->  <adg, ID, 0.000000> 
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+Line 13: func_definition : type_specifier ID LPAREN parameter_list RPAREN compound_statement
+adg
+
+Line 13: unit : func_definition
+
+Line 13: program : program unit
+
+Line 14: start : program
+
+Line Count: 14
+Error Count: 3

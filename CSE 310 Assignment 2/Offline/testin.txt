@@ -1,0 +1,80 @@
++++++
++++
+--
++-+
+
+
+// a comment
+/** another
+*** comment ***/
+/** another
+
+
+*** comment ***/
+
+/** another/
+*** comment ***/
+
+//rafid\
+hamiz\
+aaaa
+
+//rafid\
+asafafd
+sa
+
+int main(){
+	int a,b;
+	a=a+1;
+	char ch='a';
+	ch='\t';
+	char c[]="ab\td";
+	printf("abc\
+def\
+ghi");
+1.2
+1
+12345
+123456666
+1.2E-23
+1.2E23
+1.2E+23
+1.2E23.7665
+
+// a comment
+/** another
+*** comment ***/
+/** another
+
+
+*** comment ***/
+
+/** another/
+*** comment ***/
+
+//rafid\
+hamiz\
+aaaa
+
+//rafid\
+asafafd
+sa
+
+return 0;
+}
+
+1.2.345
+1E10.7
+12abcd
+'ab'
+'a
+'
+'ab cd'
+'\'
+''
+"abcd
+"abcd\
+efgh
+ijk"
+/**abc
+def

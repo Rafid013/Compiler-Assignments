@@ -1,0 +1,38 @@
+Line No. 5
+
+ScopeTable # 2
+
+ScopeTable # 1
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+
+
+Line No. 9
+
+ScopeTable # 3
+
+ScopeTable # 1
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+
+
+Line No. 13
+
+ScopeTable # 4
+
+ScopeTable # 1
+
+2 -->  <adg, ID, 0.000000> 
+
+5 -->  <main, ID, 0.000000> 
+
+14 -->  <foo, ID, 0.000000> 
+
+
+
